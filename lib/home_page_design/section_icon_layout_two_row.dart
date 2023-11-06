@@ -8,9 +8,9 @@ class SectionIconLayoutTwoRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 400, height: 200,
+      width: 400, height: 220,
       child: GridView.builder(
-        // physics: NeverScrollableScrollPhysics(),
+         physics: NeverScrollableScrollPhysics(),
           itemCount: 7,
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 4),
           // itemBuilder- it is a function and it returns a widget-- Widget? Function(BuildContext, int)

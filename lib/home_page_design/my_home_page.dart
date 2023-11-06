@@ -23,7 +23,20 @@ class MyHomePage extends StatelessWidget {
          BottomNavigationBarItem(icon: Icon(Icons.people_outline),label: 'Contact Nogod'),
 
        ],),
-     body:Column(
+     body:
+     ListView(
+
+       children: [SectionTitle(sectionTitle: 'Services'),
+        // SectionIconLayout(totalItem: 7, listImagePath: listImagePathServices),
+         SectionIconLayoutTwoRow(totalItem:7,listImagePath:listImagePathServices),
+         SectionTitle(sectionTitle: 'Payments'),
+         SectionIconLayout(totalItem: 4, listImagePath: listImagePathPayment),
+         SectionTitle(sectionTitle: 'Others'),
+         SectionIconLayout(totalItem: 4, listImagePath: listImagePathOthers),
+       ],
+     )
+     /*
+     Column(
        children: [SectionTitle(sectionTitle: 'Services'),
          //SectionIconLayout(totalItem: 7, listImagePath: listImagePathServices),
          SectionIconLayoutTwoRow(totalItem:7,listImagePath:listImagePathServices),
@@ -34,7 +47,7 @@ class MyHomePage extends StatelessWidget {
        ],
      )
           // Image.asset('sendMoney.png'),SizedBox(width: 50,),Image.asset('cashOut.png'),SizedBox(width: 50,),Image.asset('mobileRecharge.png'),SizedBox(width: 50,),Image.asset('addMoney.png'),)
-
+*/
 
      ) ;
 
