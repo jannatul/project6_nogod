@@ -57,9 +57,28 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
   # To add assets to your application, add an assets section, like this:
-  # assets:
+  assets:
+    - assets/img_1.png
+    - assets/img_10.png
+    - assets/img_11.png
+    - assets/img_12.png
+    - assets/img_16.png
+    - assets/img_17.png
+    - assets/img_18.png
+    - assets/sendMoney.png
+    - assets/cashOut.png
+    - assets/mobileRecharge.png
+    - assets/addMoney.png
+    - assets/transferMoney.png
+    - assets/merchantPay.png
+    - assets/mela.png
+    - assets/insurance.png
+    - assets/emiPay.png
+    - assets/billPay.png
+
+
+
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
